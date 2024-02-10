@@ -90,6 +90,7 @@ const FoodById = () => {
       .catch((error) => {
         console.log(error);
         setLoading(false);
+        alert("Error occurred while loading data!");
       });
   };
 
