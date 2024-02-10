@@ -8,7 +8,7 @@ import Login from "./pages/Login/Login";
 import NewMenu from "./pages/NewMenu/NewMenu";
 import Register from "./pages/Register/Register";
 import UpdateFoodById from "./pages/UpdateFoodById/UpdateFoodById";
-import UserLogin from "./pages/UserLogin/userLogin";
+import UserLogin from "./pages/UserLogin/UserLogin";
 import UpdateProfile from "./pages/UpdateProfile/UpdateProfile";
 import FoodRating from "./pages/FoodRating/FoodRating";
 
