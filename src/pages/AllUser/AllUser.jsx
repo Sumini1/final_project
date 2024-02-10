@@ -7,77 +7,6 @@ const AllUser = () => {
   const [user, setUser] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  //     {
-  //       profilePictureUrl: "https://picsum.photos/200/300?random=1",
-  //       name: "John Doe",
-  //       email: "john.doe@example.com",
-  //       role: "Admin",
-  //       id: 1,
-  //     },
-  //     {
-  //       profilePictureUrl: "https://picsum.photos/200/300?random=2",
-  //       name: "Jane Smith",
-  //       email: "jane.smith@example.com",
-  //       role: "User",
-  //       id: 2,
-  //     },
-  //     {
-  //       profilePictureUrl: "https://picsum.photos/200/300?random=3",
-  //       name: "Bob Johnson",
-  //       email: "bob.johnson@example.com",
-  //       role: "Moderator",
-  //       id: 3,
-  //     },
-  //     {
-  //       profilePictureUrl: "https://picsum.photos/200/300?random=4",
-  //       name: "Alice Williams",
-  //       email: "alice.williams@example.com",
-  //       role: "User",
-  //       id: 4,
-  //     },
-  //     {
-  //       profilePictureUrl: "https://picsum.photos/200/300?random=5",
-  //       name: "Charlie Brown",
-  //       email: "charlie.brown@example.com",
-  //       role: "Admin",
-  //       id: 5,
-  //     },
-  //     {
-  //       profilePictureUrl: "https://picsum.photos/200/300?random=6",
-  //       name: "Eva Davis",
-  //       email: "eva.davis@example.com",
-  //       role: "Moderator",
-  //       id: 6,
-  //     },
-  //     {
-  //       profilePictureUrl: "https://picsum.photos/200/300?random=7",
-  //       name: "Frank Miller",
-  //       email: "frank.miller@example.com",
-  //       role: "User",
-  //       id: 7,
-  //     },
-  //     {
-  //       profilePictureUrl: "https://picsum.photos/200/300?random=8",
-  //       name: "Grace Thompson",
-  //       email: "grace.thompson@example.com",
-  //       role: "Admin",
-  //       id: 8,
-  //     },
-  //     {
-  //       profilePictureUrl: "https://picsum.photos/200/300?random=9",
-  //       name: "Henry Wilson",
-  //       email: "henry.wilson@example.com",
-  //       role: "User",
-  //       id: 9,
-  //     },
-  //     {
-  //       profilePictureUrl: "https://picsum.photos/200/300?random=10",
-  //       name: "Ivy White",
-  //       email: "ivy.white@example.com",
-  //       role: "Moderator",
-  //       id: 10,
-  //     },
-  //   ]);
 
   const updateAdminRole = (id) => {
     const config = {
@@ -149,7 +78,7 @@ const AllUser = () => {
       >
         <span className="bg-gradient-to-r from-primary  to-secondary bg-clip-text text-transparent"> List All User</span>
       </h1>
-      <div className=" container grid grid-cols-4 sm:grid-cols-3 gap-5  py-10  mt-9">
+      <div className=" container grid grid-cols-1 sm:grid-cols-3 gap-5  py-10  mt-9">
         {user.map((item, idx) => (
           <div
             data-aos="zoom-in"
