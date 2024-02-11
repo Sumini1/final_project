@@ -46,7 +46,7 @@ const UserLikeFood = () => {
       >
         User Like Food
       </h1>
-      <div className="container grid grid-cols-3 sm:grid-cols-1 md:grid-cols-3 gap-5 ">
+      <div className="container grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-5 ">
         {userLike.map((item) => (
           <div
             data-aos="zoom-in"
